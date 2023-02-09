@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    height: 200vh;
+}
+
+nav {
+    width: 100vw;
+    height: 10vh;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#sticky {
+    width: 100vw;
+    height: 10vh;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+#sticky2 {
+    width: 100vw;
+    height: 10vh;
+    background-color: coral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 2vh;
+}
+
+#sticky3 {
+    width: 100vw;
+    height: 10vh;
+    background-color: lightseagreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 4vh;
+}
